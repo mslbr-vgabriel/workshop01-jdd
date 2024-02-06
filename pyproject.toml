@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "workshop"
+version = "0.1.0"
+description = "meu projeto de etl"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.2.0"
+pytest = "^8.0.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
