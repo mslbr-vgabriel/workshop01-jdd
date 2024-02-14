@@ -1,0 +1,21 @@
+site_name: projeto ETL
+theme:
+  name: material # or other theme
+  palette:
+    primary: red
+  language: pt
+
+repo_name: "mslbr-vgabriel/workshop01-jdd"
+repo_url: "https://github.com/mslbr-vgabriel/workshop01-jdd"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+  
